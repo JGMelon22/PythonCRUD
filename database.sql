@@ -1,0 +1,14 @@
+-- CREATE DB
+CREATE DATABASE python;
+
+-- SWITCHES TO DB
+USE python;
+
+-- CREATE TABLE 
+CREATE TABLE sales
+(
+	id_sale INT AUTO_INCREMENT,
+	product_name VARCHAR(50) NOT NULL,
+	price FLOAT NOT NULL,
+	PRIMARY KEY(id_sale)
+);
