@@ -1,5 +1,5 @@
 # CRUD with Python 
-Simple CRUD mad with Python and MySQL.
+Simple CRUD made with Python and MySQL.
 
 # Used Tools
 - MySQL 8.0.28;
