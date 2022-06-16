@@ -51,7 +51,7 @@ def delete_command():
     command_delete = 'DELETE FROM sales WHERE id_sale % 2 != 0'
     cursor.execute(command_delete)
     connection.commit()
-    print(color("Update Query Execute!", Colors.red))
+    print(color("Delete Query Execute!", Colors.red))
 
 
 delete_command()
